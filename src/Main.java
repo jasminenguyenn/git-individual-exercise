@@ -26,6 +26,7 @@ public class Main {
 
     // This feature is about sorting strings
     // I keep the list short so it’s easy to see the order change
+    // I also use Collections.sort here to put the words in alphabetical order
     public static void sortStrings() {
         List<String> words = new ArrayList<>();
         words.add("banana");
