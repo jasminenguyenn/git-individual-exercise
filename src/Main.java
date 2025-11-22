@@ -5,12 +5,13 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Git individual exercise demo");
 
-        // For now we just call both methods to show the features.
+        // I call both features here so I can see them run together
         sortInts();
         sortStrings();
     }
 
-    // Feature 1: sort a list of integers in ascending order
+    // This feature is about sorting integers
+    // I use a simple ArrayList and Collections.sort to keep it easy to understand
     public static void sortInts() {
         List<Integer> numbers = new ArrayList<>();
         numbers.add(5);
@@ -23,7 +24,8 @@ public class Main {
         System.out.println("Integers after sort:  " + numbers);
     }
 
-    // Feature 2: sort a list of strings in alphabetical order
+    // This feature is about sorting strings
+    // I keep the list short so it’s easy to see the order change
     public static void sortStrings() {
         List<String> words = new ArrayList<>();
         words.add("banana");
