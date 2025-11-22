@@ -37,5 +37,9 @@ public class Main {
         System.out.println("Strings before sort: " + words);
         Collections.sort(words);
         System.out.println("Strings after sort:  " + words);
+        System.out.println("Finished running both features!");
+
+
+
     }
 }
